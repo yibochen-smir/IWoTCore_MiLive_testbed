@@ -1,0 +1,16 @@
+These source code files in this folder are modified from the MCU-only-support or naked board platform for AVR ATMEGA128RFa1.
+The original author of this code is David Kopf, and the original source can be found here: 
+
+http://dak664.github.io/contiki-doxygen/dir_f6ee1cfdcc3dc37ddec657c35d503506.html
+
+To drive the IWoTCore board and its extend board, especially its peripherals, such as:
+1 Air Temperature Sensor
+1 Light Sensor
+1 RS232/USB Slave Port
+IEEE802.15.4 Wireless Access Medium
+1 Extend Port enable to connect with different adapter boards
+1 Port enable to directly connect with Raspberry Pi
+4 Watermark Soil moisture sensors.
+It is necessary to port the existing drivers from the Software Package for IWoTCore+MiLive (Hong-ling SHI) to the Contiki OS.
+For further information about this hardware testbed, please visit this below slides given by SMIR team of LIMOS lab.
+http://edss.isima.fr/workshop/wp-content/uploads/ppt_6.pdf
