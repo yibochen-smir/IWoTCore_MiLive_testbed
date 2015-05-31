@@ -43,7 +43,7 @@
 
 //YIBO: Because we have three types of motes
 #define RCB_CYB 0
-#define IWoTCore_Sink 1
+#define IWoTCore_Sink 0
 #define iwotcore_CYB 1
 #define iwotcore_CYB_nano 1
 #define iwotcore_real_world_deployment 0
